@@ -114,11 +114,11 @@ function Design() {
             {selectedGlassesIndex !== null && (
               <img className='position-absolute' src={glassesList[selectedGlassesIndex]} style={{ width: '500px' }} alt="glasses"/>
             )}
-            {selectedClothIndex !== null && (
-              <img className='position-absolute' src={topsList[selectedClothIndex]} style={{ width: '500px' }} alt="tops"/>
-            )}
             {selectedPantIndex !== null && (
               <img className='position-absolute' src={bottomsList[selectedPantIndex]} style={{ width: '500px' }} alt="bottoms"/>
+            )}
+            {selectedClothIndex !== null && (
+              <img className='position-absolute' src={topsList[selectedClothIndex]} style={{ width: '500px' }} alt="tops"/>
             )}
             {selectedMouthIndex !== null && (
               <img className='position-absolute' src={mouthsList[selectedMouthIndex]} style={{ width: '500px' }} alt="mouth"/>
