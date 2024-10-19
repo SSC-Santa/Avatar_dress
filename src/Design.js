@@ -142,36 +142,36 @@ function Design() {
   return (
     <React.Fragment>
       <div ref={designRef} className='container p-0 m-0' style={{height: '100vh'}} >
-        <div className='row d-flex justify-content-center p-0 m-0' style={{height: 'inherit', width: 'inherit'}}>
-          <div className='col-sm-12 p-0 m-0' style={{position: 'relative' , zIndex: 0, width: 'inherit'}}>
+        <div className='row d-flex justify-content-center p-0 m-0' style={{height: 'inherit', width: 'inherit', height:'100%'}}>
+          <div className='col-sm-12 p-0 m-0' style={{position: 'relative' , zIndex: 0, width: 'inherit', height:'100%'}}>
             {selectedBackgroundIndex !== null && (
-              <img className='position-absolute' src={backgroundList[selectedBackgroundIndex]} style={{width: 'inherit' }} alt="background" />
+              <img className='position-absolute' src={backgroundList[selectedBackgroundIndex]} style={{width: 'inherit', height:'100%'  }} alt="background" />
             )}
-            <img className='position-absolute hidden-when-download' src={startDesignText} style={{ width: 'inherit'}} alt="startDesign" />
+            <img className='position-absolute hidden-when-download' src={startDesignText} style={{ width: 'inherit', height:'100%'}} alt="startDesign" />
             <img className='position-absolute' src={body} style={{ width: 'inherit' }} alt="body" /> 
             {selectedPantIndex !== null && (
-              <img className='position-absolute' src={bottomsList[selectedPantIndex]} style={{ width: 'inherit'  }} alt="bottoms" />
+              <img className='position-absolute' src={bottomsList[selectedPantIndex]} style={{ width: 'inherit', height:'100%'  }} alt="bottoms" />
             )}
             {selectedShoesIndex !== null && (
-              <img className='position-absolute' src={shoesList[selectedShoesIndex]} style={{ width: 'inherit'  }} alt="shoes" />
+              <img className='position-absolute' src={shoesList[selectedShoesIndex]} style={{ width: 'inherit', height:'100%'   }} alt="shoes" />
             )}
             {selectedClothIndex !== null && (
-              <img className='position-absolute' src={topsList[selectedClothIndex]} style={{  width: 'inherit' }} alt="tops" />
+              <img className='position-absolute' src={topsList[selectedClothIndex]} style={{  width: 'inherit', height:'100%'  }} alt="tops" />
             )}
             {selectedMouthIndex !== null && (
-              <img className='position-absolute' src={mouthsList[selectedMouthIndex]} style={{  width: 'inherit' }} alt="mouth" />
+              <img className='position-absolute' src={mouthsList[selectedMouthIndex]} style={{  width: 'inherit', height:'100%'  }} alt="mouth" />
             )}
             {selectedNoseIndex !== null && (
-              <img className='position-absolute' src={nosesList[selectedNoseIndex]} style={{ width: 'inherit'  }} alt="nose" />
+              <img className='position-absolute' src={nosesList[selectedNoseIndex]} style={{ width: 'inherit', height:'100%'   }} alt="nose" />
             )}
             {selectedEyesIndex !== null && (
-              <img className='position-absolute' src={eyesList[selectedEyesIndex]} style={{ width: 'inherit'  }} alt="eyes" />
+              <img className='position-absolute' src={eyesList[selectedEyesIndex]} style={{ width: 'inherit', height:'100%'   }} alt="eyes" />
             )}
              {selectedMaskIndex !== null && (
-              <img className='position-absolute' src={maskList[selectedMaskIndex]} style={{ width: 'inherit'  }} alt="mask" />
+              <img className='position-absolute' src={maskList[selectedMaskIndex]} style={{ width: 'inherit', height:'100%'   }} alt="mask" />
             )}
             {selectedGlassesIndex !== null && (
-              <img className='position-absolute' src={glassesList[selectedGlassesIndex]} style={{ width: 'inherit'  }} alt="glasses" />
+              <img className='position-absolute' src={glassesList[selectedGlassesIndex]} style={{ width: 'inherit', height:'100%'   }} alt="glasses" />
             )}
 
           </div>
