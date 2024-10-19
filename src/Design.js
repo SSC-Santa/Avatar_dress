@@ -5,7 +5,7 @@ import body from './Image/character.png';
 import Download from './Image/download_image.png';
 import Reset from './Image/Reset.png';
 import Random from './Image/RANDOM.png';
-import topsButtonImage from './Image/button image 2nd try.png';  
+import topsButtonImage from './Image/tops_buttom.png';  
 import bottomButtonImage from './Image/bottom_button.png';  
 import glassesButtonImage from './Image/glasses_button.png';  
 import mouthsButtonImage from './Image/mouth_button.png';  
