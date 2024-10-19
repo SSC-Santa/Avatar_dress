@@ -187,7 +187,7 @@ function Design() {
                  <img src={mouthsButtonImage}   alt="Select Tops" />  
                </button> 
                <button onClick={handleNextTop} style={bottomsButtonStyle} >
-                 <img src={topsButtonImage}  style={characterStyle} alt="Select Tops" />  
+                 <img src={topsButtonImage}  alt="Select Tops" />  
                </button> 
                <button onClick={handleNextMask} style={bottomsButtonStyle} >
                  <img src={maskButtonImage}   alt="Select Tops" />  
