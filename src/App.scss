@@ -1,41 +1,7 @@
-// #container{
-//   position: absolute;
-//   margin:auto;
-//   width: 1000px;
-//   height: 1123px;
-// }
-
-// #body {
-//   position: absolute;
-//   width: 794px;
-//   height: 500px;
-//   // left: 500px;
-//   background-image: url("../../avatar/img/Jecks_Page1.png");
-//   background-repeat: no-repeat;
-//   color: red($color: #7e2424);
-//   z-index: 0;
-// }
-
 .bold {
   font-weight: bold;
   text-decoration: underline;
 }
-
-// #background{
-//   bottom: 1246px;
-//   right: 1119px;
-//   position: absolute;
-//   // z-index: 0;
-// }
-
-// #background1{
-//   position:absolute;
-//   width:338px;   
-//   height:254px; 
-//   top: 680px;
-//   left: 380px;
-//   // z-index: 3;
-// }
 
 #ears, #nose, #mouth, #clothes{
   position:absolute;
@@ -55,44 +21,12 @@
   z-index: 2;
 }
 
-// // $items: ("eyes": 1, "ears": 1, "mouth": 1, "nose": 1, "clothes": 1);
-// $items: ("clothes": 2, "eyes": 2);
-
-// @each $item, $total in $items {
-
-//   @for $i from 1 through $total {
-//       .#{$item}#{$i} {
-//           background-image: url(../../avatar/img/#{$item}/#{$item}#{$i}.png);
-//       }
-//   }
-// }
-
-
-// $height: 410px;
-
-// @each $item, $total in $items {
-
-//   $height: $height + 30px;
-
-//   #next#{$item}{
-//       position:absolute;
-//       left:600px; 
-//       top: $height;
-//   }
-
-// }
-
-
-// #randomize{
-//   position:absolute;
-//   left:600px;
-//   top:600px;
-//   font-weight: bold;
-//   z-index: 2;
-// }
 body {
   background-color: rgb(161, 153, 153);
   position: relative;
   z-index: 0; /* Background color layer */
 }
 // * {background-color: rgb(161, 153, 153)}
+.hide-during-download {
+  display: none !important;
+}
