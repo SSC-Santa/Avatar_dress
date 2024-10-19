@@ -180,14 +180,14 @@ function Design() {
       <div className='container m-0 p-0 hidden-when-download' style={{position: 'relative', bottom:'200px'}}>
         <div className='row d-flex justify-content-center m-0 p-0' style={{width: '100%'}} >
              <div className='d-flex justify-content-center col-sm-12'  style={{zIndex: 2, overflowX: 'auto', width: '100%'}} >
-              <button onClick={handleNextTop} style={bottomsButtonStyle} >
-                 <img src={topsButtonImage}  style={characterStyle} alt="Select Tops" />  
+               <button onClick={handleNextShoes} style={bottomsButtonStyle} >
+                 <img src={shoesButtonImage}   alt="Select Tops" />  
                </button> 
                <button onClick={handleNextMouth} style={bottomsButtonStyle} >
                  <img src={mouthsButtonImage}   alt="Select Tops" />  
                </button> 
-               <button onClick={handleNextShoes} style={bottomsButtonStyle} >
-                 <img src={shoesButtonImage}   alt="Select Tops" />  
+               <button onClick={handleNextTop} style={bottomsButtonStyle} >
+                 <img src={topsButtonImage}  style={characterStyle} alt="Select Tops" />  
                </button> 
                <button onClick={handleNextMask} style={bottomsButtonStyle} >
                  <img src={maskButtonImage}   alt="Select Tops" />  
