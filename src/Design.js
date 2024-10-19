@@ -177,7 +177,7 @@ function Design() {
           </div>
         </div>
 
-      <div className='container m-0 p-0 hidden-when-download' style={{position: 'absolute', bottom:'0'}}>
+      <div className='container m-0 p-0 hidden-when-download' style={{position: 'relative', top:'919px'}}>
         <div className='row d-flex justify-content-center m-0 p-0' style={{width: '100%'}} >
              <div className='d-flex justify-content-center col-sm-12'  style={{zIndex: 2, overflowX: 'auto', width: '100%'}} >
               <button onClick={handleNextTop} style={bottomsButtonStyle} >
