@@ -148,12 +148,12 @@ function Design() {
               <img className='position-absolute' src={backgroundList[selectedBackgroundIndex]} style={{width: 'inherit' }} alt="background" />
             )}
             <img className='position-absolute hidden-when-download' src={startDesignText} style={{ width: 'inherit'}} alt="startDesign" />
-            <img className='position-absolute' src={body} style={{ width: 'inherit' }} alt="body" />
-            {selectedGlassesIndex !== null && (
-              <img className='position-absolute' src={glassesList[selectedGlassesIndex]} style={{ width: 'inherit'  }} alt="glasses" />
-            )}
+            <img className='position-absolute' src={body} style={{ width: 'inherit' }} alt="body" /> 
             {selectedPantIndex !== null && (
               <img className='position-absolute' src={bottomsList[selectedPantIndex]} style={{ width: 'inherit'  }} alt="bottoms" />
+            )}
+            {selectedShoesIndex !== null && (
+              <img className='position-absolute' src={shoesList[selectedShoesIndex]} style={{ width: 'inherit'  }} alt="shoes" />
             )}
             {selectedClothIndex !== null && (
               <img className='position-absolute' src={topsList[selectedClothIndex]} style={{  width: 'inherit' }} alt="tops" />
@@ -164,15 +164,16 @@ function Design() {
             {selectedNoseIndex !== null && (
               <img className='position-absolute' src={nosesList[selectedNoseIndex]} style={{ width: 'inherit'  }} alt="nose" />
             )}
-            {selectedMaskIndex !== null && (
-              <img className='position-absolute' src={maskList[selectedMaskIndex]} style={{ width: 'inherit'  }} alt="mask" />
-            )}
             {selectedEyesIndex !== null && (
               <img className='position-absolute' src={eyesList[selectedEyesIndex]} style={{ width: 'inherit'  }} alt="eyes" />
             )}
-            {selectedShoesIndex !== null && (
-              <img className='position-absolute' src={shoesList[selectedShoesIndex]} style={{ width: 'inherit'  }} alt="shoes" />
+             {selectedMaskIndex !== null && (
+              <img className='position-absolute' src={maskList[selectedMaskIndex]} style={{ width: 'inherit'  }} alt="mask" />
             )}
+            {selectedGlassesIndex !== null && (
+              <img className='position-absolute' src={glassesList[selectedGlassesIndex]} style={{ width: 'inherit'  }} alt="glasses" />
+            )}
+
           </div>
         </div>
 
@@ -195,7 +196,7 @@ function Design() {
         </div>
 
         <div className='row justify-content-center m-0 p-0' style={{width: '100%'}}>
-             <div className='d-flex justify-content-center col-sm-12' style={{zIndex: 2, overflowX: 'auto', width: '100%'}}>
+             <div className='col-12 d-flex justify-content-center ' style={{zIndex: 2, overflowX: 'auto', width: '100%'}}>
                <button onClick={handleNextBottom} style={bottomsButtonStyle} >
                  <img src={bottomButtonImage}   alt="Select Tops" />  
                </button> 
@@ -215,7 +216,7 @@ function Design() {
         </div>
 
         <div className='row m-0' style={{ width: '100%' }}>
-          <div className='col-sm-12 d-flex justify-content-between p-0' style={{ zIndex: 1 }}>
+          <div className='col-12 d-flex justify-content-between p-0' style={{ zIndex: 1 }}>
               <img
                 src={Random}
                 alt="Randomize"
